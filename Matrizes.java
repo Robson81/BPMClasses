@@ -2,26 +2,26 @@ package classesBPM;
 
 public class Matrizes {
 	
-	private Integer numero;
+	private int numero;
 	private char sexo;
 	private String nome;
-	private Integer idade;
+	private int idade;
 
 	public Matrizes() {
 		
 	}
 	
-	public Matrizes(char sexo, String nome, Integer numero) {
+	public Matrizes(char sexo, String nome, int numero) {
 		this.sexo = sexo;
 		this.nome = nome;
 		this.idade = numero;
 	}
 
-	public Integer getNumero() {
+	public int getNumero() {
 		return numero;
 	}
 	
-	public void setNumero(Integer numero) {
+	public void setNumero(int numero) {
 		
 		this.numero = numero;
 	}
@@ -37,9 +37,11 @@ public class Matrizes {
 		this.nome = nome;
 	}
 
-	public Integer getIdade() {
+	public int getIdade() {
 		return idade;
 	}
+	
+	
 	
 	public String toString() {
 		
